@@ -40,3 +40,14 @@ git branch
 git branch Nombre_Rama
 *crea una nueva rama
 
+git checkout rama
+*nos movemos a una rama especificamos
+
+git checkout -b rama
+*creamos rama y nos movemos a ella
+
+git merge rama
+*absorvemos los cambios de una rama [debemos estar en la rama que absorvera los cambios]
+
+git branch -D rama
+*eliminamos una rama
