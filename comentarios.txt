@@ -37,6 +37,6 @@ git reset --hard db6ce598f6c199daef2e465b101cd294e3a164bb
 git branch
 *nos muestra las ramas de nuestro repositorio
 
-git branch "Nombre Rama"
+git branch Nombre_Rama
 *crea una nueva rama
 
