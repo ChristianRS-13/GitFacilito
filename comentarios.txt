@@ -33,3 +33,10 @@ git reset --soft 46f5d50c9d98140eb04a5f240093742f96100d79
 
 git reset --hard db6ce598f6c199daef2e465b101cd294e3a164bb
 *elimina todos los cambios echos [codigo, archivos]
+
+git branch
+*nos muestra las ramas de nuestro repositorio
+
+git branch "Nombre Rama"
+*crea una nueva rama
+
