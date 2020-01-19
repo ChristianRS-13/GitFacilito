@@ -1,0 +1,35 @@
+clear
+*limpia pantalla
+
+git init
+*inicia el seguimiento [solo se ejecuta una vez]
+
+git add [archivo]
+*agregamos archivo al seguimiento
+
+git add -A
+*agregamos todo los archivos del directorio
+
+git status
+*indica el estado de los archivos en nuestro proyecto
+
+git commit -m "Mensaje"
+*guardamos el estado del archivo, especificamos un mensaje indicando el cambio
+
+git log
+*muestra los commit realizados con su respectivos mensajes
+
+git checkout 46f5d50c9d98140eb04a5f240093742f96100d79
+*regresamos al commit con el identificador
+
+git checkout master
+*nos mueve al ultimo commit
+
+git log > commits.txt
+*genera un txt con todos nuestros commits
+
+git reset --soft 46f5d50c9d98140eb04a5f240093742f96100d79
+*elimina el commit [mensaje], pero deja los cambios echos
+
+git reset --hard db6ce598f6c199daef2e465b101cd294e3a164bb
+*elimina todos los cambios echos [codigo, archivos]
