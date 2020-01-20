@@ -51,3 +51,18 @@ git merge rama
 
 git branch -D rama
 *eliminamos una rama
+
+git clone
+*clonamos un proyecto de github a local
+
+git remote add origin https://github.com/ChristianRS-13/GitFacilito.git
+*conecta proyecto local con repositio remoto
+
+git remote remove origin
+*elimina el repositorio remoto
+
+git remote -v
+*muestra los repositorios remotos
+
+git push
+*manda los commit al remoto
