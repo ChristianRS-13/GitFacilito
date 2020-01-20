@@ -32,3 +32,15 @@ a:link:active, a:visited:active {
     letter-spacing: 3px;
     color: white;
 }
+.info{
+    background-color: #141419;
+    color: white;
+    padding: 20px;
+
+}
+.info h3{
+    font-size: 40px;
+    margin 0;
+    text-align: center;
+    text-transform: uppercase;
+}
